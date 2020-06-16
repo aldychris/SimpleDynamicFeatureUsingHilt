@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">CoreModule</string>
+    <string name="title_activity_dynamic_feature1">DynamicFeature1Activity</string>
+</resources>

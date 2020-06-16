@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DynamicFeature1Activity">
+
+    <TextView
+        android:id="@+id/tvInfo"
+        android:text="Hello world from Dynamic module1"
+        android:textSize="42sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnCallApi"
+        android:text="Call Api"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="callApiFromDynamicModule1"/>
+
+</LinearLayout>

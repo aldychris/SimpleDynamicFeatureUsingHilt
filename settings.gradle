@@ -1,0 +1,4 @@
+include ':dynamicfeature1'
+include ':app'
+include ':coremodule'
+rootProject.name = "DynamicModule"
